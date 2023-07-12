@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp">
+
+     <ImageView
+         android:layout_marginTop="14dp"
+         android:layout_marginLeft="10dp"
+         android:layout_width="60dp"
+         android:layout_height="60dp"
+         android:src="@drawable/sendmoney"/>
+
+        <TextView
+            android:layout_marginLeft="90dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:text="Requested by"
+            android:textSize="@dimen/textsize14"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/of_message"
+            android:layout_marginLeft="90dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:text="Parminder Singh"
+            android:textSize="@dimen/textsize12"
+            android:textColor="@color/black1"/>
+
+        <TextView
+            android:id="@+id/of_amount"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:text="@string/amount_payable_text"
+            android:textSize="@dimen/textsize15"
+            android:textColor="@color/black1"/>
+
+        <TextView
+            android:id="@+id/pay_btn"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="PAY"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize10"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/cancel_btn"
+            android:layout_marginRight="90dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="CANCEL"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize10"
+            android:textColor="@color/colorAccent"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

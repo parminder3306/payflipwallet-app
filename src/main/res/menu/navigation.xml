@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/wallet"
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/wallet"
+        android:title="Wallet" />
+
+    <item
+        android:id="@+id/scanpay"
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/scan"
+        android:title="ScanPay" />
+
+    <item
+        android:id="@+id/transactions"
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/transactions"
+        android:title="Orders" />
+    <item
+        android:id="@+id/account"
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/profile"
+        android:title="Account" />
+
+</menu>

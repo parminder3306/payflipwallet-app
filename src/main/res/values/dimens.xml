@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen tools:override="true" name="design_bottom_navigation_margin">10dp</dimen>
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">10dp </dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">10dp </dimen>
+    <dimen name="textsize7">7sp</dimen>
+    <dimen name="textsize8">8sp</dimen>
+    <dimen name="textsize9">9sp</dimen>
+    <dimen name="textsize10">10sp</dimen>
+    <dimen name="textsize11">11sp</dimen>
+    <dimen name="textsize12">12sp</dimen>
+    <dimen name="textsize13">13sp</dimen>
+    <dimen name="textsize14">14sp</dimen>
+    <dimen name="textsize15">15sp</dimen>
+    <dimen name="textsize18">18sp</dimen>
+    <dimen name="textsize20">20sp</dimen>
+    <dimen name="textsize25">25sp</dimen>
+    <dimen name="textsize30">30sp</dimen>
+    <dimen name="btn_text_size">13sp</dimen>
+</resources>

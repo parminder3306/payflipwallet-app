@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">PayflipWallet</string>
+    <!-- About us Activity Strings -->
+    <string name="terms_conditions"><a style="text-decoration: none" href="https//payflipwallet.com/termsandconditions">Terms &amp; Conditions</a></string>
+    <string name="app_version">Version 1.0</string>
+    <string name="company_name">© Payflip Systems Pvt Ltd.</string>
+    <!-- End -->
+    <!-- Activity Strings -->
+    <string name="amount_payable_label">Amount Payable</string>
+    <string name="amount_payable_text">\u20B9 40</string>
+    <string name="wallet_balance_text">Wallet Balance:</string>
+    <string name="request_amount_text">Request Amount:</string>
+    <string name="payment_options_text">Payment Options</string>
+    <string name="others_payment_options_text">Other Payment Options</string>
+    <string name="debit_credit_card_text">Debit or Credit Card</string>
+    <string name="netbanking_text">Net Banking</string>
+    <string name="operator_name_text">Operator</string>
+    <string name="special_offers_text">Special Offers</string>
+    <string name="billpay_text">Bill Pay Details</string>
+    <string name="recharge_text">Recharge Details</string>
+    <string name="secure_text">100% Secure</string>
+    <string name="apply_promo_btn">Apply</string>
+    <string name="demo_number_text">987654321</string>
+    <string name="demo_offers_text">Best Offer Applied : Reward Applicable</string>
+    <string name="demo_txn_status">Success</string>
+    <string name="demo_email_text">care@payflipwallet.com</string>
+    <string name="demo_orderid_text">Order ID: PAY6879886898</string>
+    <string name="demo_date_text">11 May 2018, 2:33 PM</string>
+    <string name="demo_date_text1">11 May 2018</string>
+    <string name="demo_refer_details_text">Refer your friends and receive * money in your wallet.</string>
+    <string name="forget_password_text">Forget Password?</string>
+    <string name="signup_text">Create New Account</string>
+    <string name="saved_connection_text">Saved Connections</string>
+    <string name="recharge_no_text">Recharge No.</string>
+    <string name="amount_paid_text">Total Amount Paid</string>
+    <string name="amount_received_text">Total Amount Received</string>
+    <string name="addmoney_wallet_text">AddMoney to Wallet</string>
+    <string name="sendmoney_text">SendMoney</string>
+    <string name="requestmoney_text">RequestMoney</string>
+    <string name="addmoney_text">AddMoney</string>
+    <string name="my_coupons_text">My Coupons</string>
+    <string name="my_rewards_text">My Rewards</string>
+    <string name="all_offers_text">All Offers</string>
+    <string name="recharge_billpay_text">Recharge &amp; Bill Payments</string>
+    <string name="mobile_text">Mobile</string>
+    <string name="datacard_text">DataCard</string>
+    <string name="dth_text">DTH</string>
+    <string name="electricity_text">Electricity</string>
+    <string name="landline_text">Landline</string>
+    <string name="broadband_text">Broadband</string>
+    <string name="googleplay_text">GooglePlay</string>
+    <string name="autopay_text">Auto Pay</string>
+    <string name="demo_name_text">Janny</string>
+    <string name="name_text">Name</string>
+    <string name="mobile_no_text">Mobile No.</string>
+    <string name="email_id_text">Email ID</string>
+    <string name="available_balance_text">Available Balance</string>
+    <string name="spend_text">Spend:</string>
+    <string name="total_limit_text">Total Limit:</string>
+    <string name="earn_points_text">Earn Points</string>
+    <string name="redeem_text">Redeem</string>
+    <string name="total_points_text">Total Points</string>
+    <string name="saved_cards_text">Saved Cards</string>
+    <string name="add_cards_text">Add Debit/Credit Card</string>
+    <string name="invoice_text">Invoice Details</string>
+    <string name="order_fail_text">Order is failed</string>
+    <string name="order_wait_text">Order is Pending</string>
+    <string name="order_done_text">Order is Successful</string>
+    <string name="order_success_text">Money is Successfully Added</string>
+    <string name="accepted_here_text">ACCEPTED HERE</string>
+    <string name="scan_pay_text">Scan &amp; Pay Using PayflipWallet App</string>
+    <string name="refer_code_text">Referral Code:</string>
+    <string name="share_friend_text">Share Referral Code With Friends :</string>
+    <string name="send_to_text">Send To:</string>
+    <string name="from_text">From</string>
+    <string name="ac_name_text">A/C Name</string>
+    <string name="no_one_text">No.1 Online Payments App</string>
+    <string name="do_have_promo_text">Do you have a voucher code?</string>
+    <string name="have_promo_text">Have a promo code?</string>
+    <string name="tapAgain">Tap again to exit!</string>
+    <string name="txn_details_text">Txn Details</string>
+    <string name="total_cahback_won">Total Cashback Won</string>
+
+    <!-- End -->
+
+    <!-- All Inputs Strings -->
+    <string name="mobile_number_hint">Mobile Number</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="account_number_hint">Account Number</string>
+    <string name="amount_hint">Amount</string>
+    <string name="dthnumber_hint">DTH Number</string>
+    <string name="old_password_hint">OLD PASSWORD</string>
+    <string name="new_password_hint">NEW PASSWORD</string>
+    <string name="email_id_hint">EMAIL ID</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Name</string>
+    <string name="promocode_hint">Promocode</string>
+    <string name="operator_hint">Select Operator</string>
+    <string name="date_hint">Select Date</string>
+    <!-- End -->
+
+    <!-- All Button Strings -->
+    <string name="continue_btn">CONTINUE</string>
+    <string name="paynow_btn">Pay Now</string>
+    <string name="done_btn">Done</string>
+    <string name="back_btn">Back</string>
+    <string name="login_btn">Login</string>
+    <string name="signup_btn">Signup</string>
+    <string name="change_password_btn">CHANGE PASSWORD</string>
+    <string name="reset_password_btn">RESET PASSWORD</string>
+    <string name="sendmoney_btn">Send Money</string>
+    <string name="requestmoney_btn">Request Money</string>
+    <string name="redeem_btn">Redeem</string>
+    <string name="one_hundered_btn">+100</string>
+    <string name="five_hundered_btn">+500</string>
+    <string name="one_thousand_btn">+1000</string>
+    <string name="addmoney_btn">ADD MONEY</string>
+    <string name="update_btn">UPDATE</string>
+    <string name="add_promo_btn">Add Promo</string>
+    <string name="add_btn">ADD</string>
+    <string name="share_btn">SHARE</string>
+
+
+
+
+
+    <!-- End -->
+</resources>

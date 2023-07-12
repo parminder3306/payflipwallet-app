@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "147458353959",
+    "firebase_url": "https://payflipwallet-27549.firebaseio.com",
+    "project_id": "payflipwallet-27549",
+    "storage_bucket": "payflipwallet-27549.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147458353959:android:2dcbd6cda05b2131879702",
+        "android_client_info": {
+          "package_name": "com.payflipwallet.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147458353959-9fpla8r9048n5f5nv5skvar83s6hjicu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3HLdyN9fCAESxsW16zog5kllSLZoFalc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147458353959-9fpla8r9048n5f5nv5skvar83s6hjicu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/fakelayout"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/card_solid"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/ic_referral"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/offer"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/demo_refer_details_text"
+            android:textSize="@dimen/textsize12"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/fakelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/refer_code_text"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize15"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/refer_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="XXXXXX"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/textsize15"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/share_friend_text"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/textsize12"
+            android:gravity="center" />
+
+
+        <Button
+            android:id="@+id/share_btn"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/blue_btn"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/share_btn"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_text_size" />
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/ic_social"
+        android:src="@drawable/ic_social"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="31dp" />
+
+</RelativeLayout>

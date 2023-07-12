@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@drawable/card"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/scratch_card"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_margin="1dp"
+                android:visibility="visible"
+                android:id="@+id/cashback_scratch_background"
+                android:background="@drawable/scratch_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_marginTop="13dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cashback"/>
+
+        <TextView
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Cashback"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize11"/>
+
+        <TextView
+            android:id="@+id/cashback_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:layout_gravity="center"
+            android:text="100"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize14"/>
+
+        <TextView
+            android:id="@+id/cashback_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:text="@string/demo_txn_status"
+            android:textColor="@color/green"
+            android:textSize="@dimen/textsize11"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>

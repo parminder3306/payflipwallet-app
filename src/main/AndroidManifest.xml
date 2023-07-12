@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.payflipwallet.android">
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        tools:replace="android:allowBackup"
+        android:hardwareAccelerated="true"
+        android:supportsRtl="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".activity.Splash"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="app" android:host="com.payflipwallet.android"/>
+                <data android:scheme="https" android:host="payflipwallet.com"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity
+		    android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.RequestMoney"
+            android:label="Request Money"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.ChangePassword"
+            android:label="Change Password"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.SendMoney"
+            android:label="Send Money"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="SendMoney" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Recharge"
+            android:label="Recharge"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="Recharge" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.AutoPay"
+            android:label="AutoPay"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.DealDetails"
+            android:label="Offers Deatils"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.SavedConnections"
+            android:label="Saved Connections"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.DataCard"
+            android:label="DataCard"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="Datacard" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Dth"
+            android:label="DTH"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="Dth" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Electricity"
+            android:label="Electricity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="Electricity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Landline"
+            android:label="Landline"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="Landline" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.AboutUs"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Scan_Payments"
+            android:label="Send To"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.RequestPay"
+            android:label="Send To"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Notifications"
+            android:label="Notifications"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="RequestPay" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.AddMoney"
+            android:label="Complete Payment"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Complete_payment"
+            android:label="Complete Payment"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.ReferEarn"
+            android:label="Refer a friend"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.MyQr"
+            android:label="QR Code"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Signup"
+            android:label="Sign Up"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.ScanPay"
+            android:label="ScanPay"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Orders_Pending"
+            android:label="Invoice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Login"
+            android:label="PayflipWallet"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Orders_Success"
+            android:label="Invoice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Orders_Fail"
+            android:label="Invoice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Money_fail"
+            android:label="Invoice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Money_Success"
+            android:label="Invoice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Forget"
+            android:label="Forget Password"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Offers"
+            android:label="Offers"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="Offers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Voucher"
+            android:label="PromoCode"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="Voucher" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Invoice"
+            android:label="Invoice"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Rewards"
+            android:label="Rewards"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="Rewards" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".activity.Operators"
+            android:label="Select Operators"
+            android:theme="@style/AppTheme"/>
+
+        <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true"/>
+        <service android:name=".MyService"/>
+
+        <service
+            android:name=".FirebaseMessagingService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

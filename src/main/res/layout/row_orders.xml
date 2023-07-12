@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:id="@+id/card_view"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:foreground="?attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/txn_logo"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/round_shadow_dark" />
+
+
+            <TextView
+                android:id="@+id/txn_details"
+                android:layout_marginLeft="85dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:text="Details"
+                android:textSize="@dimen/textsize12"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txn_date"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:text="@string/demo_date_text1"
+                android:textSize="@dimen/textsize10"
+                android:textColor="@color/black1"/>
+
+            <TextView
+                android:id="@+id/txn_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:gravity="center"
+                android:text="@string/amount_payable_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize14" />
+        </RelativeLayout>
+
+</LinearLayout>

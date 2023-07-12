@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:background="@color/white"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cashback"/>
+
+        <TextView
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Cashback"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize20"/>
+
+        <TextView
+            android:id="@+id/dialog_cashback_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+            android:layout_gravity="center"
+            android:text="10"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize25"/>
+
+        </LinearLayout>
+
+        <com.payflipwallet.android.helper.ScratchCard
+            android:visibility="visible"
+            android:id="@+id/scratchCard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/close_dialog"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CLOSE"
+        android:textSize="@dimen/textsize15"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center" />
+</RelativeLayout>
